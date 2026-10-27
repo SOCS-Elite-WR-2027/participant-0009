@@ -1,0 +1,28 @@
+# Build outputs
+build/
+dist/
+out/
+.gradle/
+.idea/
+.vscode/
+*.apk
+*.aab
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Real logs can contain sensitive information; commit only sanitized examples.
+log/*.log
+!log/example.log
